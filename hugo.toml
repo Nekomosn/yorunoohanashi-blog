@@ -1,4 +1,4 @@
-baseURL = 'https://yorunoohanashi.work/blog/'
+baseURL = 'https://blog.yorunoohanashi.work/'
 languageCode = 'ja'
 title = 'よるのおはなしワーク ブログ'
 theme = 'ananke'
