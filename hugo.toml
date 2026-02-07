@@ -1,0 +1,38 @@
+baseURL = 'https://yorunoohanashi.work/blog/'
+languageCode = 'ja'
+title = 'よるのおはなしワーク ブログ'
+theme = 'ananke'
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "よるのおはなしワークの最新情報、稼ぎ方のコツ、確定申告ガイドなど"
+  background_color_class = "bg-dark-pink"
+  custom_css = ["css/custom.css"]
+  
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "ホーム"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "記事一覧"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "サイトについて"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    identifier = "tags"
+    name = "タグ"
+    url = "/tags/"
+    weight = 4
+  [[menu.main]]
+    identifier = "mainsite"
+    name = "🌙 本サイト"
+    url = "https://yorunoohanashi.work/"
+    weight = 5

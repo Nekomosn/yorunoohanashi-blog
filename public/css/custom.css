@@ -1,0 +1,226 @@
+/* ===========================================
+   よるのおはなしワーク ブログ - シンプルデザイン
+   =========================================== */
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Marufumya';
+    src: url('/fonts/marufumya.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CSS Variables */
+:root {
+    --color-dusty-pink: #D4A5A5;
+    --color-dusty-pink-light: #E8C4C4;
+    --color-midnight-blue: #1A1F3D;
+    --color-champagne-gold: #D4AF37;
+    --color-text: #333333;
+    --color-bg: #FFFFFF;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Zen Maru Gothic', sans-serif !important;
+    background: var(--color-bg) !important;
+    color: var(--color-text) !important;
+}
+
+/* Header */
+header,
+.bg-dark-pink,
+nav,
+.nav-container,
+header nav,
+header.bg-dark-pink,
+.site-header,
+header>div {
+    background: var(--color-midnight-blue) !important;
+}
+
+nav a {
+    color: #FFFFFF !important;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+nav a:hover {
+    color: var(--color-dusty-pink) !important;
+}
+
+/* Site Title - ロゴはまるふみゃ */
+.site-title,
+.f1,
+h1.light-silver,
+.light-silver {
+    font-family: 'Marufumya', 'Zen Maru Gothic', cursive !important;
+    color: var(--color-dusty-pink) !important;
+}
+
+/* Links */
+a {
+    color: var(--color-midnight-blue);
+}
+
+a:hover {
+    color: var(--color-dusty-pink);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-text) !important;
+    font-family: 'Zen Maru Gothic', sans-serif !important;
+}
+
+h1 {
+    color: var(--color-midnight-blue) !important;
+}
+
+h2 {
+    color: var(--color-midnight-blue) !important;
+    border-bottom: 2px solid var(--color-dusty-pink);
+    padding-bottom: 0.5rem;
+}
+
+/* Content */
+.content,
+main,
+article {
+    background: var(--color-bg) !important;
+    color: var(--color-text) !important;
+}
+
+p,
+.nested-copy-line-height p {
+    color: var(--color-text) !important;
+    line-height: 1.8;
+}
+
+/* Article Cards */
+article {
+    border-bottom: 1px solid #eee;
+    padding: 1.5rem 0;
+}
+
+/* Tags */
+.tag,
+.ba {
+    background: transparent !important;
+    border: 1px solid var(--color-dusty-pink) !important;
+    color: var(--color-dusty-pink) !important;
+    border-radius: 4px;
+    padding: 0.25rem 0.75rem;
+}
+
+.tag:hover,
+.ba:hover {
+    background: var(--color-dusty-pink) !important;
+    color: #FFFFFF !important;
+}
+
+/* Footer */
+footer {
+    background: var(--color-midnight-blue) !important;
+    color: #FFFFFF !important;
+}
+
+footer a {
+    color: var(--color-dusty-pink) !important;
+}
+
+/* Buttons */
+.btn,
+button {
+    background: var(--color-dusty-pink) !important;
+    color: #FFFFFF !important;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn:hover,
+button:hover {
+    background: var(--color-midnight-blue) !important;
+}
+
+/* Tables */
+table {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+th {
+    background: var(--color-dusty-pink);
+    color: #FFFFFF;
+}
+
+td,
+th {
+    border-color: #ddd !important;
+    padding: 0.75rem;
+}
+
+/* Code */
+pre,
+code {
+    background: #f5f5f5 !important;
+    color: var(--color-text) !important;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* List items */
+ul li,
+ol li {
+    color: var(--color-text);
+}
+
+/* Categories */
+.categories a {
+    color: var(--color-champagne-gold) !important;
+}
+
+/* Remove dark backgrounds - but NOT header */
+.bg-white:not(header):not(header *),
+.white-90:not(header):not(header *),
+.bg-near-white:not(header):not(header *) {
+    background: var(--color-bg) !important;
+    color: var(--color-text) !important;
+}
+
+.black-70,
+.dark-gray,
+.mid-gray {
+    color: var(--color-text) !important;
+}
+
+/* Featured/Hero area */
+.cover {
+    background: var(--color-midnight-blue) !important;
+}
+
+.cover h1,
+.cover p,
+.cover .f4,
+.cover .f5,
+.cover .f6 {
+    color: var(--color-dusty-pink) !important;
+}
+
+/* Accents */
+.accent {
+    color: var(--color-champagne-gold);
+}
+
+/* Main site link in nav */
+nav a[href*="yorunowork"] {
+    background: rgba(212, 165, 165, 0.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+}

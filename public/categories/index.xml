@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on よるのおはなしワーク ブログ</title>
+    <link>http://localhost:1314/blog/categories/</link>
+    <description>Recent content in Categories on よるのおはなしワーク ブログ</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1314/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>税金ガイド</title>
+      <link>http://localhost:1314/blog/categories/%E7%A8%8E%E9%87%91%E3%82%AC%E3%82%A4%E3%83%89/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/blog/categories/%E7%A8%8E%E9%87%91%E3%82%AC%E3%82%A4%E3%83%89/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>安心サポート</title>
+      <link>http://localhost:1314/blog/categories/%E5%AE%89%E5%BF%83%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1314/blog/categories/%E5%AE%89%E5%BF%83%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
